@@ -21,9 +21,3 @@ def inversa3x3(m):
     adj = [[cof[j][i] for j in range(3)] for i in range(3)]
     inv = [[adj[i][j] / det for j in range(3)] for i in range(3)]
     return inv
-
-
-class Matriz3x3:
-    def __init__(self):
-        pass
-
