@@ -1,5 +1,4 @@
-# import  matriz3
-from operacoes import start_menu
+from circuito import start_menu
 
 start_menu()
 
